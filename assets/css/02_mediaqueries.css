@@ -1,0 +1,296 @@
+/* MEDIA QUERIES ******************************************************* */
+
+
+@media screen and (min-width:480px) {
+
+  /* MAIN *************************** */
+
+
+  
+
+  /* Project card */
+
+  .project-card {
+    width: 60%;
+    height: 60vh;
+  }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+/*  MAIN ******************************************************* */
+
+
+/* Audiobook section, Restaurant section, Exhibit Section */
+
+#section-audiobook,
+#section-restaurant {
+
+  background-size: contain;
+  
+}
+
+
+
+}
+
+
+
+@media screen and (min-width:1280px) {
+
+
+  /*  HEADER ******************************************************* */
+
+  header {
+    width: 35vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+
+  /* See my work */
+
+  #icon-arrow-down {
+    display: none;
+  }
+
+  #icon-arrow-right {
+    display: block;
+  }
+
+
+
+  /* Menu */
+
+  nav {
+    display: none;
+  }
+
+
+
+
+  /* MAIN *************************** */
+
+
+  main {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    z-index: 1;
+    height: 100vh;
+  }
+
+
+
+
+  #vertical-line-1,
+  #vertical-line-2 {
+    display: none;
+  }
+
+
+
+  #horizontal-line-1 {
+    width: 30vw;
+    height: 1px;
+    background-color: #b47433;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  #horizontal-line-2 {
+    width: 10vw;
+    height: 1px;
+    background-color: #b47433;
+    position: absolute;
+    top: 50%;
+    left: 170%;
+    transform: translate(-50%, -50%);
+
+  }
+
+
+  h1 {
+    margin: 0;
+  }
+
+  #under-header {
+    display: block;
+    min-width: 30vw;
+    min-height: 100vh;
+  }
+
+
+  .section {
+    min-width: 70vw;
+    min-height: 100vh;
+
+  }
+
+
+
+  .section-container {
+    width: 70%;
+  }
+
+
+
+
+
+
+  /* Project card */
+
+  .project-card {
+    width: 40%;
+    height: 80vh;
+  }
+
+
+
+
+  .github-repo {
+    width: 20vw;
+  }
+
+
+  /* Audiobook section */
+
+  #section-audiobook {
+    background-image: url(../img/img_audiobook_mq.webp);
+  }
+
+  /* Restaurant section */
+
+  #section-restaurant {
+
+    background-image: url(../img/img_restaurant_mq.webp);
+
+  }
+
+
+  /* Museum section */
+
+#section-museum {
+
+  background-image: url(../img/img_museum_mq.webp);
+}
+
+
+  /* About section */
+
+  #about-me {
+    min-width: 75%;
+
+  }
+
+
+
+  /* Tech Stack section */
+
+  #tech-front {
+    display: flex;
+    margin-top: 50px;
+  }
+
+
+  #front-title {
+    border-bottom: 0;
+    border-right: 1px solid #b47433;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+  }
+
+
+  #front-icons div i {
+    display: block;
+    font-size: 40px;
+    color: #b47433;
+  }
+
+  /* *** */
+
+  #tech-back {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  #back-title {
+    border-bottom: 0;
+    border-right: 1px solid #b47433;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+  }
+
+
+  #back-icons div img {
+    display: block;
+  }
+
+
+  #icon-wamp,
+  #icon-symfony,
+  #icon-xampp {
+    width: 20%;
+
+  }
+
+  /* *** */
+
+  #tech-database {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  #database-title {
+    border-bottom: 0;
+    border-right: 1px solid #b47433;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+  }
+
+  #database-icons {
+    width: 100%;
+  }
+
+  #database-icons div img {
+    display: block;
+  }
+
+
+  #icon-database,
+  #icon-workbench,
+  #icon-doctrine {
+    width: 25%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
