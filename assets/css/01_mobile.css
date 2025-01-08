@@ -618,7 +618,7 @@ main {
 
 #back-icons {
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-self: center;
   justify-content: center;
 }
@@ -627,6 +627,7 @@ main {
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -636,6 +637,9 @@ main {
 }
 
 
+#back-icons div p {
+  text-align: center;
+}
 
 /* *** */
 
@@ -652,7 +656,7 @@ main {
 
 #database-icons {
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-self: center;
   justify-content: center;
   margin-left: 10px;
@@ -662,6 +666,7 @@ main {
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -669,7 +674,9 @@ main {
   display: none;
 }
 
-
+#database-icons div p {
+  text-align: center;
+}
 
 
 /* *** */
