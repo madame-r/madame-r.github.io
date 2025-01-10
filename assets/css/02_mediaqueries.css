@@ -234,21 +234,30 @@
   #back-title {
     border-bottom: 0;
     border-right: 1px solid #b47433;
-    width: 16vw;
+    width: 12vw;
     display: flex;
     align-items: center;
   }
 
 
-  #back-icons div img {
-    display: block;
+  #back-icons {
+    width: 50%;
   }
 
 
-  #icon-wamp,
-  #icon-symfony,
-  #icon-xampp {
-    width: 20%;
+  #back-icons div img,
+  #back-icons div i {
+    display: block;
+  }
+
+  #back-icons div i {
+    font-size: 40px;
+    color: #b47433;
+  }
+
+
+  #icon-symfony {
+    width: 21%;
 
   }
 
