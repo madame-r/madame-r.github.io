@@ -5,7 +5,7 @@ It's in the title : a landing page to showcase my work as a web developer.
 
 
 
-## See it live
+## See it live !
 
 And go to : https://madame-r.github.io/
 
@@ -22,11 +22,11 @@ Enjoy your stay, have a look at my other repositories and let's get in touch if 
 
 ## 🛠️ Tech Stack
 
-**Database:** MySQL Workbench, Doctrine
+**Database:** MySQL, Doctrine ORM
 
-**Back End:** Symfony, WAMP (Windows, Apache, MySQL, PHP) or XAMPP (Cross-Platform, Apache, MySQL, PHP, and Perl)
+**Back End:** PHP, Symfony
 
-**Front End:** HTML, CSS, Javascript, Bootstrap
+**Front End:** HTML, CSS, Javascript, React
 
 **IDE:** Visual Studio Code
 
