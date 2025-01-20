@@ -271,13 +271,13 @@
   #database-title {
     border-bottom: 0;
     border-right: 1px solid #b47433;
-    width: 16vw;
+    width: 12vw;
     display: flex;
     align-items: center;
   }
 
   #database-icons {
-    width: 100%;
+    width: 50%;
   }
 
   #database-icons div img {
@@ -292,7 +292,7 @@
 
   #icon-mysql,
   #icon-doctrine {
-    width: 25%;
+    width: 20%;
   }
 
 
