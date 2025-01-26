@@ -13,6 +13,13 @@ And go to : https://madame-r.github.io/
 - Horizontal scroll for desktop
 
 
+## 🧰 Tool Box for this project
+
+![html badge](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![css badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![javascript badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
 
 ## 🍞 About Me
 Hi everyone, I'm Madame R. a Web Developer from France. 
@@ -38,8 +45,9 @@ Enjoy your stay, have a look at my other repositories and let's get in touch if 
 Front End
 
  - [Ana Travas for her wonderful CSS Animation Library](https://animista.net/)
+ - [Alvaro Trigo and his great horizontal scroll](https://alvarotrigo.com/blog/scroll-horizontally-with-mouse-wheel-vanilla-java/)
 
-## License
+## 📃 License
 
 
 ![CREATIVE COMMONS](./00_readme/badge_cc.png)
