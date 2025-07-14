@@ -502,7 +502,7 @@ main {
 
 /* Audiobook section */
 
-#section-audiobook {
+#section-p01 {
 
   background-image: url(../img/img_audiobook.webp);
   background-repeat: no-repeat;
@@ -513,7 +513,7 @@ main {
 
 /* Restaurant section */
 
-#section-restaurant {
+#section-p02 {
 
   background-image: url(../img/img_restaurant.webp);
   background-repeat: no-repeat;
@@ -524,9 +524,9 @@ main {
 
 /* Museum section */
 
-#section-museum {
+#section-p03{
 
-  background-image: url(../img/img_museum.webp);
+  background-image: url(../img/img_weather.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

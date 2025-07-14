@@ -171,13 +171,13 @@
 
   /* Audiobook section */
 
-  #section-audiobook {
+  #section-p01 {
     background-image: url(../img/img_audiobook_mq.webp);
   }
 
   /* Restaurant section */
 
-  #section-restaurant {
+  #section-p02 {
 
     background-image: url(../img/img_restaurant_mq.webp);
 
@@ -186,9 +186,9 @@
 
   /* Museum section */
 
-  #section-museum {
+  #section-p03 {
 
-    background-image: url(../img/img_museum_mq.webp);
+    background-image: url(../img/img_weather_mq.webp);
   }
 
 
