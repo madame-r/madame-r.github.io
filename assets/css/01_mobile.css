@@ -297,7 +297,8 @@ h1 {
 
 #title p {
   font-size: 20px;
-  letter-spacing: 7px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 
@@ -501,35 +502,35 @@ main {
 
 /* Audiobook section */
 
-#section-p01 {
+#section-audiobook {
 
   background-image: url(../img/img_audiobook.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
 
 /* Restaurant section */
 
-#section-p02 {
+#section-restaurant {
 
   background-image: url(../img/img_restaurant.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
 
-/* Weather section */
+/* Museum section */
 
-#section-p03 {
+#section-museum {
 
-  background-image: url(../img/img_weather.webp);
+  background-image: url(../img/img_museum.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
 
 
@@ -573,7 +574,7 @@ main {
 
 
 #tech-front {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 #front-title {
@@ -619,9 +620,7 @@ main {
 #back-icons {
   display: flex;
   width: 100%;
-  justify-self: center;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #back-icons div {
@@ -634,8 +633,7 @@ main {
 
 
 #back-icons div img,
-#back-icons div i
- {
+#back-icons div i {
   display: none;
 }
 
@@ -660,9 +658,7 @@ main {
 #database-icons {
   display: flex;
   width: 100%;
-  justify-self: center;
-  justify-content: center;
-  margin-left: 10px;
+  justify-content: space-evenly;
 }
 
 #database-icons div {
@@ -685,9 +681,11 @@ main {
 /* *** */
 
 
-.txt-italic {
-  font-style: italic;
-}
+  #tech-toools {
+    margin-top: 50px;
+  }
+
+
 
 
 /* Contact section */

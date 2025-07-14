@@ -1,7 +1,7 @@
 
 # Madame R Portfolio
 
-It's in the title : a landing page to showcase my work as a web developer.
+It's in the title : a landing page to showcase my work.
 
 
 
@@ -19,25 +19,6 @@ And go to : https://madame-r.github.io/
 ![css badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![javascript badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-
-
-## 🍞 About Me
-Hi everyone, I'm Madame R. a Web Developer from France. 
-Currently in training, I'm a database enthusiast.
-Enjoy your stay, have a look at my other repositories and let's get in touch if you wish to work with me.
-
-
-## 🛠️ Tech Stack
-
-**Database:** MySQL, Doctrine ORM
-
-**Back End:** PHP, Symfony
-
-**Front End:** HTML, CSS, Javascript, React
-
-**IDE:** Visual Studio Code
-
-**Versioning:** Git, Github
 
 
 ## ❤️ Acknowledgements

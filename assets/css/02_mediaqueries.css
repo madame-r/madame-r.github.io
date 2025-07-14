@@ -6,7 +6,7 @@
   /* MAIN *************************** */
 
 
-  
+
 
   /* Project card */
 
@@ -26,18 +26,17 @@
 
 @media screen and (min-width:768px) {
 
-/*  MAIN ******************************************************* */
+  /*  MAIN ******************************************************* */
 
 
-/* Audiobook section, Restaurant section, Exhibit Section */
+  /* Audiobook section, Restaurant section, Exhibit Section */
 
-#section-p01,
-#section-p02,
-#section-p03 {
+  #section-audiobook,
+  #section-restaurant {
 
-  background-size: contain;
-  
-}
+    background-size: contain;
+
+  }
 
 
 
@@ -172,25 +171,25 @@
 
   /* Audiobook section */
 
-  #section-p01 {
+  #section-audiobook {
     background-image: url(../img/img_audiobook_mq.webp);
   }
 
   /* Restaurant section */
 
-  #section-p02 {
+  #section-restaurant {
 
     background-image: url(../img/img_restaurant_mq.webp);
 
   }
 
 
-  /* Weather section */
+  /* Museum section */
 
-#section-p03 {
+  #section-museum {
 
-  background-image: url(../img/img_weather_mq.webp)
-}
+    background-image: url(../img/img_museum_mq.webp);
+  }
 
 
   /* About section */
@@ -206,7 +205,7 @@
 
   #tech-front {
     display: flex;
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
 
@@ -235,14 +234,14 @@
   #back-title {
     border-bottom: 0;
     border-right: 1px solid #b47433;
-    width: 12vw;
+    width: 17vw;
     display: flex;
     align-items: center;
   }
 
 
   #back-icons {
-    width: 50%;
+    margin-left: 30px;
   }
 
 
@@ -258,8 +257,12 @@
 
 
   #icon-symfony {
-    width: 21%;
+    width: 30%;
 
+  }
+
+  #icon-express {
+    width: 38%;
   }
 
   /* *** */
@@ -278,7 +281,8 @@
   }
 
   #database-icons {
-    width: 50%;
+    width: 40%;
+    margin-left: 20px;
   }
 
   #database-icons div img {
@@ -286,18 +290,21 @@
   }
 
 
-  #icon-database {
-    width: 30%;
-  }
-
 
   #icon-mysql,
   #icon-doctrine {
-    width: 20%;
+    width: 28%;
   }
 
 
+  /* *** */
 
+  #tech-toools {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+  }
 
 
 
