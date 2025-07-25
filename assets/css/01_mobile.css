@@ -301,6 +301,10 @@ h1 {
   letter-spacing: 2px;
 }
 
+#title .update {
+  background-color: #b47433;
+  color: black;
+}
 
 
 /* See my work */
