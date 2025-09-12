@@ -9,8 +9,8 @@
 
 
 @font-face {
-  font-family: "Nightwatch";
-  src: url(../font/TheNightWatch.ttf);
+  font-family: "Bigger";
+  src: url(../font/BiggerDisplay.otf);
 }
 
 
@@ -199,9 +199,20 @@ video {
   vertical-align: bottom;
 }
 
+
+
+/*  PLAYGROUND ******************************************************* */
+
 #playground {
   overflow-x: hidden;
+  background-image: url(../img/header_mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+
 
 
 /*  HEADER ******************************************************* */
@@ -211,8 +222,7 @@ video {
 header {
   width: 100vw;
   height: 100vh;
-  background-color: black;
-  color: #b47433;
+  color: white;
   padding: 20px;
   position: relative;
 }
@@ -238,11 +248,11 @@ nav {
 
 #menu {
   position: absolute;
-  top: 15%;
+  top: 14%;
   left: 0;
   width: 100%;
-  height: 85vh;
-  background-color: black;
+  height: 87vh;
+  background-color: rgb(255, 255, 255, 0.5);
   display: none;
   text-align: right;
   list-style-type: none;
@@ -253,21 +263,21 @@ nav {
 #menu li {
   margin: 40px 0;
   padding-right: 40px;
-  border-bottom: 1px solid #b47433;
+  border-bottom: 1px solid #016e7a;
 }
 
 
 #menu li a {
-  font-family: "Nightwatch";
+  font-family: "Montserrat";
   text-decoration: none;
   font-size: 25px;
-  color: #b47433;
+  color: #016e7a;
 }
 
 
 
 #menu li a:hover {
-  color: #daae81;
+  color: white;
   cursor: pointer;
 }
 
@@ -285,23 +295,36 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 150%;
   height: 70%;
+  justify-self: center;
 }
 
 h1 {
-  font-family: "Nightwatch";
-  font-size: 50px;
+  font-family: "Bigger";
+  font-size: 125px;
+  font-weight: 100;
+  color: rgb(255, 255, 255, 0.3);
 }
 
 
 #title p {
   font-size: 20px;
   text-align: center;
-  letter-spacing: 2px;
+  font-weight: 900;
+  letter-spacing: 6px;
 }
 
-
+#title #update {
+  display: none;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #016e7a;
+  font-weight: 100;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 40px;
+}
 
 /* See my work */
 
@@ -321,6 +344,10 @@ h1 {
 #icon-arrow-down {
   text-align: center;
 
+}
+
+#icon-arrow-down i {
+  font-size: 40px;
 }
 
 #icon-arrow-right {
@@ -350,8 +377,7 @@ h1 {
 
 
 main {
-  background-color: black;
-  color: #b47433;
+  color: #016e7a;
   position: relative;
 }
 
@@ -372,9 +398,9 @@ main {
 
 
 #vertical-line-1 {
-  width: 1px;
+  width: 2px;
   height: 35vh;
-  background-color: #b47433;
+  background-color: rgb(255, 255, 255, 0.6);
   position: absolute;
   top: 17.5%;
   left: 50%;
@@ -386,9 +412,9 @@ main {
 
 
 #vertical-line-2 {
-  width: 1px;
+  width: 2px;
   height: 35vh;
-  background-color: #b47433;
+  background-color: rgb(255, 255, 255, 0.6);
   position: absolute;
   top: 34%;
   left: 50%;
@@ -418,11 +444,11 @@ main {
 }
 
 .section h2 {
-  font-family: "Nightwatch";
-  font-size: 30px;
+  font-family: "Bigger";
+  font-size: 60px;
   text-align: center;
-  font-style: italic;
   font-weight: 200;
+  color: rgb(1, 110, 122, 0.5);
 }
 
 
@@ -445,16 +471,10 @@ main {
 .project-card {
   width: 70%;
   height: 60vh;
-  border: 1px solid #b47433;
   border-radius: 10px;
   position: relative;
+  background-color: rgb(255, 255, 255, 0.6);
 
-}
-
-.card-italic {
-  font-family: "Nightwatch";
-  font-style: italic;
-  font-weight: 100;
 }
 
 .project-description {
@@ -467,6 +487,18 @@ main {
   left: 2%;
 }
 
+
+
+
+
+.card-italic {
+
+  font-style: italic;
+  font-weight: 100;
+}
+
+
+
 .github-repo {
   position: absolute;
   top: 40%;
@@ -474,25 +506,29 @@ main {
   transform: translate(-50%, -50%);
   width: 45vw;
   height: 8vh;
-  background-color: black;
-  border: 1px solid #b47433;
+  background-image: url(../img/header_mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
   font-size: 15px;
   font-weight: 600;
+  border-radius: 20px;
 }
 
 .github-repo:hover {
-  background-color: #b47433;
-  border: 0;
-  cursor: pointer;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid #016e7a;
 }
 
 .github-repo a {
   text-decoration: none;
-  color: #b47433;
+  color: white;
 }
 
 .github-repo a:hover {
-  color: white;
+  color: #016e7a;
 }
 
 .project-tag {
@@ -500,47 +536,23 @@ main {
 }
 
 
-/* Audiobook section */
 
-#section-p01 {
-
-  background-image: url(../img/img_audiobook.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-}
-
-/* Restaurant section */
-
-#section-p02 {
-
-  background-image: url(../img/img_restaurant.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-}
-
-/* Museum section */
-
-#section-p03{
-
-  background-image: url(../img/img_weather.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-}
 
 
 /* About section */
 
 #about-me {
   min-width: 95%;
-
 }
 
+#about-me .section-container {
+  background-color: rgb(255, 255, 255, 0.6);
+  color: #016e7a;
+  height: 70%;
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+}
 
 #about-me p {
   margin: 20px 0;
@@ -561,6 +573,15 @@ main {
 
 /* Tech Stack section */
 
+#tech-stack .section-container {
+  background-color: rgb(255, 255, 255, 0.6);
+  color: #016e7a;
+
+  width: 90%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 #tech-stack p {
   margin: 20px 0;
 }
@@ -578,7 +599,7 @@ main {
 }
 
 #front-title {
-  border-bottom: 1px solid #b47433;
+  border-bottom: 1px solid #016e7a;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -607,7 +628,7 @@ main {
 /* *** */
 
 #back-title {
-  border-bottom: 1px solid #b47433;
+  border-bottom: 1px solid #016e7a;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -617,19 +638,12 @@ main {
 }
 
 
-#back-icons {
+#back-php,
+#back-js {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
 }
 
-#back-icons div {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
 
 #back-icons div img,
@@ -645,7 +659,7 @@ main {
 /* *** */
 
 #database-title {
-  border-bottom: 1px solid #b47433;
+  border-bottom: 1px solid #016e7a;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -654,20 +668,12 @@ main {
   text-align: center;
 }
 
-
-#database-icons {
+#database-db,
+#database-orm {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
 }
 
-#database-icons div {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
 #database-icons div img {
   display: none;
@@ -681,9 +687,11 @@ main {
 /* *** */
 
 
-  #tech-toools {
-    margin-top: 50px;
-  }
+#tech-toools {
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+}
 
 
 
@@ -693,7 +701,11 @@ main {
 
 #contact {
   min-width: 95%;
+  color: white;
+}
 
+#contact h2 {
+  color: white;
 }
 
 #contact p {
@@ -708,9 +720,9 @@ main {
 }
 
 #icon-github a {
-  color: #b47433;
+  color: white;
 }
 
 #icon-github a:hover {
-  color: #daae81;
+  color: #016e7a;
 }

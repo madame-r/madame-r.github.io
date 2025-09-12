@@ -47,6 +47,39 @@
 @media screen and (min-width:1280px) {
 
 
+
+  /*  ROUND CURSOR ******************************************************* */
+
+
+  #custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+  }
+
+
+  body {
+    cursor: none;
+  }
+
+
+  /*  PLAYGROUND ******************************************************* */
+
+
+  #playground {
+    background-image: url(../img/header_desktop.jpg);
+
+  }
+
+
   /*  HEADER ******************************************************* */
 
   header {
@@ -57,6 +90,21 @@
     left: 0;
     overflow: hidden;
     z-index: 2;
+    background-color: rgb(255, 255, 255, 0.9);
+    color: #016e7a;
+  }
+
+
+  #title h1 {
+    color: #016e7a;
+  }
+
+
+
+  #title #update {
+    background-color: rgb(1, 110, 122, 0.5);
+    color: white;
+    font-weight: 600;
   }
 
 
@@ -70,6 +118,9 @@
     display: block;
   }
 
+  #icon-arrow-right i {
+    font-size: 40px;
+  }
 
 
   /* Menu */
@@ -89,7 +140,7 @@
     overflow-y: hidden;
     display: flex;
     z-index: 1;
-    height: 100vh;
+    color: #016e7a;
   }
 
 
@@ -104,8 +155,8 @@
 
   #horizontal-line-1 {
     width: 30vw;
-    height: 1px;
-    background-color: #b47433;
+    height: 2px;
+    background-color: rgb(255, 255, 255, 0.9);
     position: absolute;
     top: 50%;
     left: 100%;
@@ -115,9 +166,9 @@
 
 
   #horizontal-line-2 {
-    width: 10vw;
-    height: 1px;
-    background-color: #b47433;
+    width: 30vw;
+    height: 2px;
+    background-color: rgb(255, 255, 255, 0.9);
     position: absolute;
     top: 50%;
     left: 170%;
@@ -169,90 +220,89 @@
   }
 
 
-  /* Audiobook section */
-
-  #section-p01 {
-    background-image: url(../img/img_audiobook_mq.webp);
-  }
-
-  /* Restaurant section */
-
-  #section-p02 {
-
-    background-image: url(../img/img_restaurant_mq.webp);
-
-  }
-
-
-  /* Museum section */
-
-  #section-p03 {
-
-    background-image: url(../img/img_weather_mq.webp);
-  }
-
-
   /* About section */
 
   #about-me {
     min-width: 75%;
-
   }
 
+  #about-me .section-container {
+    width: 70%;
+    padding: 40px;
+  }
 
 
   /* Tech Stack section */
 
-  #tech-front {
-    display: flex;
-    margin-top: 80px;
+  #tech-stack .section-container {
+    width: 80%;
   }
 
+  .all-tech {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  /* *** */
+
+  #tech-front {
+    margin-top: 0;
+    width: 33%;
+  }
 
   #front-title {
-    border-bottom: 0;
-    border-right: 1px solid #b47433;
-    width: 16vw;
-    display: flex;
-    align-items: center;
+    text-align: center;
   }
 
+  #front-icons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
 
   #front-icons div i {
     display: block;
     font-size: 40px;
-    color: #b47433;
+    color: #016e7a;
   }
 
   /* *** */
 
   #tech-back {
-    display: flex;
-    margin-top: 20px;
+    width: 33%;
   }
 
   #back-title {
-    border-bottom: 0;
-    border-right: 1px solid #b47433;
-    width: 17vw;
+    text-align: center;
+  }
+
+
+  #back-php,
+  #back-js {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+  #back-php div,
+  #back-js div {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
-
-  #back-icons {
-    margin-left: 30px;
-  }
-
-
-  #back-icons div img,
-  #back-icons div i {
+  #back-php div img,
+  #back-php div i,
+  #back-js div img,
+  #back-js div i {
     display: block;
   }
 
-  #back-icons div i {
+  #back-php div i,
+  #back-js div i {
     font-size: 40px;
-    color: #b47433;
+    color: #016e7a;
   }
 
 
@@ -262,38 +312,45 @@
   }
 
   #icon-express {
-    width: 38%;
+    width: 35%;
   }
 
   /* *** */
 
   #tech-database {
-    display: flex;
-    margin-top: 20px;
+    width: 33%;
   }
 
   #database-title {
-    border-bottom: 0;
-    border-right: 1px solid #b47433;
-    width: 12vw;
+    text-align: center;
+  }
+
+  #database-db,
+  #database-orm {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+  #database-db div,
+  #database-orm div {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
-  #database-icons {
-    width: 40%;
-    margin-left: 20px;
-  }
-
-  #database-icons div img {
+  #database-db div img,
+  #database-orm div img {
     display: block;
   }
 
 
 
   #icon-mysql,
-  #icon-doctrine {
-    width: 28%;
+  #icon-doctrine,
+  #icon-postgresql,
+  #icon-prisma {
+    width: 30%;
   }
 
 
@@ -303,15 +360,29 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-
   }
 
 
+  /* Contact section */
 
 
+  #contact,
+  #icon-github a {
+    color: #016e7a;
+  }
+
+  #contact h2 {
+    color: rgb(1, 110, 122, 0.5);
+  }
+
+  #icon-github a:hover {
+    color: white;
+  }
 
 
-
+  * {
+    cursor: none !important;
+  }
 
 
 }
